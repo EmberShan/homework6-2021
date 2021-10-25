@@ -10,7 +10,7 @@ header{
   align-items: center;
 } 
 
-header .nav_links a, header .nav_links a:visited{
+a:visited{
   color: blue !important;
 }
 .nav_links{
@@ -52,7 +52,7 @@ header .nav_links a, header .nav_links a:visited{
 .gallery{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 #logo{
